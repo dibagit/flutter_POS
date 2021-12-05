@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final a = 1;
-  final String name = "Dibakar";
+  final String name = "Paul";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,10 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("My name is $name and This is my $a st Flutter App"),
+          child: Text(
+            "This is Mr. $name and This is my $a st Flutter App this is for testing purpose only so don't take it seriously",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ),
       ),
       drawer: Drawer(),
